@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+$primary-color: #e5e5e5;
+$secondary-color: #b1a7a5;
+$tertiary-color: #ea3057;
+$fourth-color: #191919;
+
+$medium-space: 10px;
+$large-space: 20px;
+
+$border: 2px solid black;
+$border-roudning: 25px;
+
+header{
+    width: 100vw;
+    max-height: 10vh;
+
+    h1 {
+        max-width: 50%;
+        padding: $medium-space;
+        background-color: #b1a7a5;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+main {
+    height: 80vh;
+    min-width: 100vw;
+    display: flex;
+    
+}
