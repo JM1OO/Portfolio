@@ -40,3 +40,30 @@ $border-rounding: 25px;
 
 }
 
+main {
+    .intro{
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+
+        h1 {
+            color: $tertiary-color;
+            margin: 20px 0px 20px;
+            font-size: 75px;
+        }
+
+        h3 {
+            color: $tertiary-color;
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+
+        h4 {
+            color: $tertiary-color;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+    }
+}
+    

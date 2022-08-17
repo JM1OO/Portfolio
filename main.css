@@ -25,9 +25,24 @@
   display: inline-block;
 }
 
-nav ul li a:hover {
+main .intro {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+main .intro h1 {
   color: #ea3057;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: capitalize;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+main .intro h3 {
+  color: #ea3057;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+main .intro h4 {
+  color: #ea3057;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
