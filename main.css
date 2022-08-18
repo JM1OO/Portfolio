@@ -46,3 +46,7 @@ main .intro h4 {
   letter-spacing: 2px;
   font-size: 20px;
 }
+main .about img {
+  border-radius: 25px;
+  height: auto;
+}
